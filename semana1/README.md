@@ -1,3 +1,5 @@
+# Curiosidades 
+
 ## 🔹 O que é `Main` em C#?
 
 👉 **`Main` é o ponto de entrada do programa.**
@@ -6,243 +8,123 @@
 
 ---
 
-## 🔹 O que ele faz?
 
-- Inicia o programa
-- Diz ao runtime **por onde começar**
-- Orquestra a execução (não faz o trabalho pesado)
+# Semana 1 - Exemplos Básicos em C#
+
+Este projeto demonstra conceitos fundamentais da linguagem C# usando exemplos práticos no arquivo `Program.cs`.
 
 ---
 
-## 🔹 Forma clássica
+## Conteúdo do Código
+
+### 1. Saída no Console
 
 ```csharp
-static void Main(string[] args)
-{
-    Console.WriteLine("Olá!");
-}
-
+Console.WriteLine("Hello, World!");
 ```
+Exibe uma mensagem simples no console.
 
 ---
 
-## 🔹 C# moderno (top-level statements)
+### 2. Tipos de Variáveis
 
-```csharp
-Console.WriteLine("Olá!");
-
-```
-
-✔️ O `Main` **existe**, mas o compilador cria automaticamente.
-
----
-
-## 🔹 Regra de ouro
-
-> Só existe um Main por aplicação
-> 
-> 
-> **O `Main` coordena, não executa lógica complexa**
-> 
+- **Tipo explícito:**
+    ```csharp
+    int numero = 10;
+    ```
+- **Tipo implícito:**
+    ```csharp
+    var texto = "O número é ";
+    ```
 
 ---
 
-## 🔹 Pense assim
+### 3. Estruturas de Decisão
 
-```
-Main = porta de entrada
-Métodos = ações
-Classes = organização
+- **if / else:**
+    ```csharp
+    if (numero == 10)
+    {
+            Console.WriteLine(texto + numero);
+    }
+    else
+    {
+            Console.WriteLine("Número diferente de 10");
+    }
+    ```
 
-```
-
----
-
-## 🔹 `var` vs tipo explícito em C#
-
-### 📌 A verdade principal
-
-> var NÃO é tipagem dinâmica
-> 
-> 
-> O tipo é definido **em tempo de compilação**.
-> 
-
----
-
-## 🔹 Tipo explícito
-
-```csharp
-int idade = 30;
-
-```
-
-### ✔️ Vantagens
-
-- Tipo visível imediatamente
-- Melhor para quem está aprendendo
-- Ajuda em APIs públicas
-
-### ❌ Desvantagens
-
-- Código mais verboso
-- Pode repetir informação óbvia
-
----
-
-## 🔹 `var`
-
-```csharp
-var idade = 30; // continua sendo int
-
-```
-
-### ✔️ Vantagens
-
-- Código mais limpo
-- Reduz redundância
-- Excelente com LINQ
-
-```csharp
-var pares = numeros.Where(n => n % 2 == 0);
-
-```
-
-### ❌ Desvantagens
-
-- Pode esconder o tipo
-- Prejudica leitura se mal usado
+- **switch case:**
+    ```csharp
+    int dia = 4;
+    switch(dia)
+    {
+            case 1:
+                    Console.WriteLine("Segunda-feira");
+                    break;
+            case 2:
+                    Console.WriteLine("Terça-feira");
+                    break;
+            case 3:
+                    Console.WriteLine("Quarta-feira");
+                    break;
+            case 4:
+                    Console.WriteLine("Quinta-feira");
+                    break;
+            case 5:
+                    Console.WriteLine("Sexta-feira");
+                    break;
+            case 6:
+                    Console.WriteLine("Sábado");
+                    break;
+            case 7:
+                    Console.WriteLine("Domingo");
+                    break;
+            default:
+                    Console.WriteLine("Dia inválido");
+                    break;
+    }
+    ```
 
 ---
 
-## 🔹 Comparação direta
+### 4. Estruturas de Repetição
 
-| Situação | Melhor escolha |
-| --- | --- |
-| Tipo óbvio (`new Cliente()`) | `var` |
-| LINQ | `var` |
-| Tipos primitivos isolados | tipo explícito |
-| APIs públicas | tipo explícito |
-| Tipo não óbvio | tipo explícito |
+- **for (incrementando +1):**
+    ```csharp
+    for (int i = 0; i < 5; i++)
+    {
+            Console.WriteLine(i);
+    }
+    ```
 
----
+- **for (incrementando +2):**
+    ```csharp
+    for (int i = 0; i <= 10; i = i + 2)
+    {
+            Console.WriteLine(i);
+    }
+    ```
 
-## 🔹 O que `var` NÃO faz
-
-❌ Não torna o código dinâmico
-
-❌ Não muda performance
-
-❌ Não adia decisão de tipo
-
----
-
-## 🔹 Regra de ouro (nível profissional)
-
-> Use var quando o tipo é óbvio pela direita da atribuição.
-> 
-> 
-> **Use tipo explícito quando a clareza ganha da concisão.**
-> 
+- **foreach (percorrendo array):**
+    ```csharp
+    string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+    foreach (string i in cars)
+    {
+            Console.WriteLine(i);
+    }
+    ```
 
 ---
 
-## 🔹 Mini-check mental
+## Resumo
 
-Pergunta rápida:
+O arquivo `Program.cs` apresenta exemplos de:
 
-> Se eu remover o nome da variável, o tipo ainda fica claro?
-> 
-- ✔️ Sim → `var`
-- ❌ Não → tipo explícito
+- Declaração de variáveis (explícita e implícita)
+- Estruturas condicionais (`if/else`, `switch`)
+- Estruturas de repetição (`for`, `foreach`)
+- Manipulação de arrays
+- Impressão de dados no console
 
+Esses conceitos são essenciais para quem está começando a programar em C#.
 ---
-
-
-Aqui vai um **resumo direto, limpo e profissional** sobre **estrutura de arquivos em projetos C#** — ideal pra Notion 👇
-
----
-
-## 🧱 Estrutura de Arquivos em Projetos C#
-
-### 🎯 Ideia central
-
-> **Um projeto C# é composto por vários arquivos `.cs`, mas apenas um ponto de entrada.**
-
----
-
-## 🚪 Ponto de entrada
-
-* Toda aplicação C# possui **um único ponto de entrada**
-* Esse ponto é o método **`Main`**
-* No C# moderno, o `Main` pode estar **implícito** (top-level statements)
-
-```csharp
-// Program.cs
-Console.WriteLine("Hello World");
-```
-
-📌 O compilador gera o `Main` automaticamente.
-
----
-
-## 📂 Organização típica de arquivos
-
-```
-/Projeto
- ├── Program.cs        ← ponto de entrada
- ├── Models/
- │    └── Produto.cs
- ├── Services/
- │    └── PedidoService.cs
- ├── Infrastructure/
- │    └── Repositorio.cs
-```
-
-* `Program.cs`: inicialização da aplicação
-* Outros arquivos `.cs`: **classes, métodos e tipos**
-* Pastas ajudam na **separação de responsabilidades**
-
----
-
-## ✅ O que é permitido
-
-✔️ Vários arquivos `.cs` no mesmo projeto
-✔️ Um único `Program.cs` executável
-✔️ Classes espalhadas por arquivos diferentes
-✔️ Organização por domínio ou camada
-
----
-
-## ❌ O que não é permitido
-
-❌ Dois arquivos com código executável direto
-❌ Mais de um `Main` no mesmo projeto
-❌ Lógica de negócio pesada dentro do `Program.cs`
-
----
-
-## 🧠 Regra de ouro
-
-```
-Program.cs → coordena
-Outros arquivos → executam o trabalho
-```
-
----
-
-## 🏗️ Boa prática profissional
-
-* `Program.cs` deve ser **curto**
-* Cada arquivo deve ter **uma responsabilidade clara**
-* Um arquivo ≠ uma aplicação
-* Um projeto = uma aplicação
-
----
-
-## 📌 Pensamento de engenheiro
-
-> Se eu trocar a interface (console → API),
-> **meus arquivos continuam válidos?**
-
-Se sim, a estrutura está correta ✅
