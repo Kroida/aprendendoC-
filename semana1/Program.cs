@@ -48,3 +48,24 @@ switch(dia)
         break;
 }
 
+// Loop for
+// Incrementando +1
+for (int i = 0; i < 5; i++)
+{
+    Console.WriteLine(i);
+}
+
+// Incrementando +2
+for (int i = 0; i <= 10; i = i + 2) 
+{
+  Console.WriteLine(i);
+}
+
+// Loop foreach
+string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+
+// Percorrendo o array cars
+foreach (string i in cars) 
+{
+  Console.WriteLine(i);
+}

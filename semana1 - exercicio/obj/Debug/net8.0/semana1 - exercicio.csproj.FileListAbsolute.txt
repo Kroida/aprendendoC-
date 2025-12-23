@@ -1,0 +1,14 @@
+C:\Users\sdneopomoceno\Downloads\aprendendoC--main\semana1 - exercicio\obj\Debug\net8.0\semana1 - exercicio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sdneopomoceno\Downloads\aprendendoC--main\semana1 - exercicio\obj\Debug\net8.0\semana1 - exercicio.AssemblyInfoInputs.cache
+C:\Users\sdneopomoceno\Downloads\aprendendoC--main\semana1 - exercicio\obj\Debug\net8.0\semana1 - exercicio.AssemblyInfo.cs
+C:\Users\sdneopomoceno\Downloads\aprendendoC--main\semana1 - exercicio\obj\Debug\net8.0\semana1 - exercicio.csproj.CoreCompileInputs.cache
+C:\Users\sdneopomoceno\Downloads\aprendendoC--main\semana1 - exercicio\bin\Debug\net8.0\semana1 - exercicio.exe
+C:\Users\sdneopomoceno\Downloads\aprendendoC--main\semana1 - exercicio\bin\Debug\net8.0\semana1 - exercicio.deps.json
+C:\Users\sdneopomoceno\Downloads\aprendendoC--main\semana1 - exercicio\bin\Debug\net8.0\semana1 - exercicio.runtimeconfig.json
+C:\Users\sdneopomoceno\Downloads\aprendendoC--main\semana1 - exercicio\bin\Debug\net8.0\semana1 - exercicio.dll
+C:\Users\sdneopomoceno\Downloads\aprendendoC--main\semana1 - exercicio\bin\Debug\net8.0\semana1 - exercicio.pdb
+C:\Users\sdneopomoceno\Downloads\aprendendoC--main\semana1 - exercicio\obj\Debug\net8.0\semana1 - exercicio.dll
+C:\Users\sdneopomoceno\Downloads\aprendendoC--main\semana1 - exercicio\obj\Debug\net8.0\refint\semana1 - exercicio.dll
+C:\Users\sdneopomoceno\Downloads\aprendendoC--main\semana1 - exercicio\obj\Debug\net8.0\semana1 - exercicio.pdb
+C:\Users\sdneopomoceno\Downloads\aprendendoC--main\semana1 - exercicio\obj\Debug\net8.0\semana1 - exercicio.genruntimeconfig.cache
+C:\Users\sdneopomoceno\Downloads\aprendendoC--main\semana1 - exercicio\obj\Debug\net8.0\ref\semana1 - exercicio.dll

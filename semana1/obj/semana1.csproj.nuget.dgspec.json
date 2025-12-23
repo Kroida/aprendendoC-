@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kroid\\Desktop\\Aprendendo c#\\semana1\\semana1.csproj": {}
+    "C:\\Users\\sdneopomoceno\\Downloads\\aprendendoC--main\\semana1\\semana1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kroid\\Desktop\\Aprendendo c#\\semana1\\semana1.csproj": {
+    "C:\\Users\\sdneopomoceno\\Downloads\\aprendendoC--main\\semana1\\semana1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kroid\\Desktop\\Aprendendo c#\\semana1\\semana1.csproj",
+        "projectUniqueName": "C:\\Users\\sdneopomoceno\\Downloads\\aprendendoC--main\\semana1\\semana1.csproj",
         "projectName": "semana1",
-        "projectPath": "C:\\Users\\Kroid\\Desktop\\Aprendendo c#\\semana1\\semana1.csproj",
-        "packagesPath": "C:\\Users\\Kroid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kroid\\Desktop\\Aprendendo c#\\semana1\\obj\\",
+        "projectPath": "C:\\Users\\sdneopomoceno\\Downloads\\aprendendoC--main\\semana1\\semana1.csproj",
+        "packagesPath": "C:\\Users\\sdneopomoceno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sdneopomoceno\\Downloads\\aprendendoC--main\\semana1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kroid\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\sdneopomoceno\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"

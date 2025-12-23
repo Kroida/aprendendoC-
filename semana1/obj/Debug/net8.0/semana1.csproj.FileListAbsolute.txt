@@ -12,3 +12,17 @@ C:\Users\Kroid\Desktop\Aprendendo c#\semana1\obj\Debug\net8.0\refint\semana1.dll
 C:\Users\Kroid\Desktop\Aprendendo c#\semana1\obj\Debug\net8.0\semana1.pdb
 C:\Users\Kroid\Desktop\Aprendendo c#\semana1\obj\Debug\net8.0\semana1.genruntimeconfig.cache
 C:\Users\Kroid\Desktop\Aprendendo c#\semana1\obj\Debug\net8.0\ref\semana1.dll
+C:\Users\sdneopomoceno\Downloads\aprendendoC--main\semana1\bin\Debug\net8.0\semana1.exe
+C:\Users\sdneopomoceno\Downloads\aprendendoC--main\semana1\bin\Debug\net8.0\semana1.deps.json
+C:\Users\sdneopomoceno\Downloads\aprendendoC--main\semana1\bin\Debug\net8.0\semana1.runtimeconfig.json
+C:\Users\sdneopomoceno\Downloads\aprendendoC--main\semana1\bin\Debug\net8.0\semana1.dll
+C:\Users\sdneopomoceno\Downloads\aprendendoC--main\semana1\bin\Debug\net8.0\semana1.pdb
+C:\Users\sdneopomoceno\Downloads\aprendendoC--main\semana1\obj\Debug\net8.0\semana1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sdneopomoceno\Downloads\aprendendoC--main\semana1\obj\Debug\net8.0\semana1.AssemblyInfoInputs.cache
+C:\Users\sdneopomoceno\Downloads\aprendendoC--main\semana1\obj\Debug\net8.0\semana1.AssemblyInfo.cs
+C:\Users\sdneopomoceno\Downloads\aprendendoC--main\semana1\obj\Debug\net8.0\semana1.csproj.CoreCompileInputs.cache
+C:\Users\sdneopomoceno\Downloads\aprendendoC--main\semana1\obj\Debug\net8.0\semana1.dll
+C:\Users\sdneopomoceno\Downloads\aprendendoC--main\semana1\obj\Debug\net8.0\refint\semana1.dll
+C:\Users\sdneopomoceno\Downloads\aprendendoC--main\semana1\obj\Debug\net8.0\semana1.pdb
+C:\Users\sdneopomoceno\Downloads\aprendendoC--main\semana1\obj\Debug\net8.0\semana1.genruntimeconfig.cache
+C:\Users\sdneopomoceno\Downloads\aprendendoC--main\semana1\obj\Debug\net8.0\ref\semana1.dll
