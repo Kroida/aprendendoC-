@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Globalization;
 
 Console.WriteLine("=== Parte 1 do exercício ===");
 
@@ -35,7 +36,31 @@ else
 
 Console.WriteLine("=== Parte 2 do exercício ===");
 
-Console.Write("Coloque aqui seu número: ");
-var entrada = Console.ReadLine();
-double.TryParse(entrada, out double numero);
+Console.Write("Primeiro número: ");
+// Tenta converter o valor digitado em um double, aceitando vários formatos numéricos e usando ponto como separador decimal, sem gerar exceção se falhar.
+double.TryParse(Console.ReadLine(), NumberStyles.Any, CultureInfo.InvariantCulture, out double n1);
 
+Console.Write("Segundo número: ");
+double.TryParse(Console.ReadLine(), NumberStyles.Any, CultureInfo.InvariantCulture, out double n2);
+
+Console.Write("1 = somar | 2 = subtrair | 3 = sair: ");
+int.TryParse(Console.ReadLine(), out int opcao);
+
+switch (opcao)
+{
+    case 1:
+        Console.WriteLine($"Resultado: {n1 + n2}");
+        break;
+
+    case 2:
+        Console.WriteLine($"Resultado: {n1 - n2}");
+        break;
+
+    case 3:
+        Console.WriteLine("Saindo...");
+        break;
+
+    default:
+        Console.WriteLine("Opção inválida!");
+        break;
+}

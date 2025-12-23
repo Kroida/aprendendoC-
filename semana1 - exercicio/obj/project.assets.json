@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\sdneopomoceno\\.nuget\\packages\\": {}
+    "C:\\Users\\Kroid\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sdneopomoceno\\Downloads\\aprendendoC--main\\semana1 - exercicio\\semana1 - exercicio.csproj",
+      "projectUniqueName": "C:\\Users\\Kroid\\Desktop\\Aprendendo c#\\semana1 - exercicio\\semana1 - exercicio.csproj",
       "projectName": "semana1 - exercicio",
-      "projectPath": "C:\\Users\\sdneopomoceno\\Downloads\\aprendendoC--main\\semana1 - exercicio\\semana1 - exercicio.csproj",
-      "packagesPath": "C:\\Users\\sdneopomoceno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sdneopomoceno\\Downloads\\aprendendoC--main\\semana1 - exercicio\\obj\\",
+      "projectPath": "C:\\Users\\Kroid\\Desktop\\Aprendendo c#\\semana1 - exercicio\\semana1 - exercicio.csproj",
+      "packagesPath": "C:\\Users\\Kroid\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kroid\\Desktop\\Aprendendo c#\\semana1 - exercicio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\sdneopomoceno\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Kroid\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
