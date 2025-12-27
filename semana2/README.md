@@ -40,9 +40,9 @@ class Produto
 }
 ```
 
-✔️ Suporta herança, polimorfismo e encapsulamento
-❌ Comparação padrão é por referência
-❌ Pode gerar efeitos colaterais se mal controlada
+* ✔️ Suporta herança, polimorfismo e encapsulamento
+* ❌ Comparação padrão é por referência
+* ❌ Pode gerar efeitos colaterais se mal controlada
 
 ---
 
@@ -87,8 +87,8 @@ struct Ponto
 }
 ```
 
-✔️ Evita alocação no heap
-❌ Pode gerar custo de cópia se for grande ou complexo
+* ✔️ Evita alocação no heap
+* ❌ Pode gerar custo de cópia se for grande ou complexo
 
 ---
 
@@ -197,8 +197,8 @@ class Produto
 }
 ```
 
-✔️ Forte garantia de imutabilidade
-❌ Menos flexível que `init`
+* ✔️ Forte garantia de imutabilidade
+* ❌ Menos flexível que `init`
 
 ---
 
