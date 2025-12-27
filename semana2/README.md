@@ -277,7 +277,7 @@ void Exibir(in int valor)
 
 ---
 
-## 📌 Conclusão
+## ♦️ Conclusão
 
 * Use `class` para entidades com identidade e comportamento
 * Use `record` para dados e value objects
