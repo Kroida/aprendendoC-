@@ -50,19 +50,36 @@
 // }
 
 // Exemplo 4: Crindo uma classe com fields vazios, instanciando um objeto e modificando os fields em branco. Isso é útil quando se é necessário criar múltiplos objetos de uma classe.
-class Book
+// class Book
+// {
+//     string color; // field
+//     string tittle; // field
+//     int cost;
+//     static void Main(string[] args)
+//     {
+//         Book book = new Book();
+//         book.color = "blue";
+//         book.tittle = "Mistery of Talara";
+//         book.cost = 50;
+//         Console.WriteLine(book.color);
+//         Console.WriteLine(book.tittle);
+//         Console.WriteLine(book.cost);
+//     }
+// }
+
+/* ========== SEMANA 2 - PARTE 2 ========== */
+// Exemplo 1: Definindo uma record type e criando objetos.
+record Produto(string Nome, decimal Preco)
 {
-    string color; // field
-    string tittle; // field
-    int cost;
     static void Main(string[] args)
     {
-        Book book = new Book();
-        book.color = "blue";
-        book.tittle = "Mistery of Talara";
-        book.cost = 50;
-        Console.WriteLine(book.color);
-        Console.WriteLine(book.tittle);
-        Console.WriteLine(book.cost);
+        var p1 = new Produto("Teclado", 199);
+        var p2 = new Produto("Teclado", 199);
+
+        Console.WriteLine(p1 == p2); // ✅ true (mesmos valores)
     }
 }
+
+
+
+
