@@ -130,8 +130,8 @@ var p1 = new Produto("Teclado", 200);
 var p2 = p1 with { Preco = 100 }; // novo objeto
 ```
 
-✔️ Nenhum estado é modificado
-✔️ Ideal para dados, eventos, mensagens e DTOs
+* ✔️ Nenhum estado é modificado
+* ✔️ Ideal para dados, eventos, mensagens e DTOs
 
 ---
 
