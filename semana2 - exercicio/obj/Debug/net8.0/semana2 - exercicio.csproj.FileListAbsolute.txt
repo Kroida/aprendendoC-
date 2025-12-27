@@ -1,0 +1,15 @@
+C:\Users\Kroid\Desktop\Aprendendo c#\semana2 - exercicio\obj\Debug\net8.0\semana2 - exercicio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kroid\Desktop\Aprendendo c#\semana2 - exercicio\obj\Debug\net8.0\semana2 - exercicio.AssemblyInfoInputs.cache
+C:\Users\Kroid\Desktop\Aprendendo c#\semana2 - exercicio\obj\Debug\net8.0\semana2 - exercicio.AssemblyInfo.cs
+C:\Users\Kroid\Desktop\Aprendendo c#\semana2 - exercicio\obj\Debug\net8.0\semana2 - exercicio.csproj.CoreCompileInputs.cache
+C:\Users\Kroid\Desktop\Aprendendo c#\semana2 - exercicio\obj\Debug\net8.0\semana2 - exercicio.sourcelink.json
+C:\Users\Kroid\Desktop\Aprendendo c#\semana2 - exercicio\bin\Debug\net8.0\semana2 - exercicio.exe
+C:\Users\Kroid\Desktop\Aprendendo c#\semana2 - exercicio\bin\Debug\net8.0\semana2 - exercicio.deps.json
+C:\Users\Kroid\Desktop\Aprendendo c#\semana2 - exercicio\bin\Debug\net8.0\semana2 - exercicio.runtimeconfig.json
+C:\Users\Kroid\Desktop\Aprendendo c#\semana2 - exercicio\bin\Debug\net8.0\semana2 - exercicio.dll
+C:\Users\Kroid\Desktop\Aprendendo c#\semana2 - exercicio\bin\Debug\net8.0\semana2 - exercicio.pdb
+C:\Users\Kroid\Desktop\Aprendendo c#\semana2 - exercicio\obj\Debug\net8.0\semana2 - exercicio.dll
+C:\Users\Kroid\Desktop\Aprendendo c#\semana2 - exercicio\obj\Debug\net8.0\refint\semana2 - exercicio.dll
+C:\Users\Kroid\Desktop\Aprendendo c#\semana2 - exercicio\obj\Debug\net8.0\semana2 - exercicio.pdb
+C:\Users\Kroid\Desktop\Aprendendo c#\semana2 - exercicio\obj\Debug\net8.0\semana2 - exercicio.genruntimeconfig.cache
+C:\Users\Kroid\Desktop\Aprendendo c#\semana2 - exercicio\obj\Debug\net8.0\ref\semana2 - exercicio.dll
