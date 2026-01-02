@@ -1,0 +1,15 @@
+C:\Users\Kroid\Desktop\Aprendendo c#\semana3\bin\Debug\net8.0\semana3.exe
+C:\Users\Kroid\Desktop\Aprendendo c#\semana3\bin\Debug\net8.0\semana3.deps.json
+C:\Users\Kroid\Desktop\Aprendendo c#\semana3\bin\Debug\net8.0\semana3.runtimeconfig.json
+C:\Users\Kroid\Desktop\Aprendendo c#\semana3\bin\Debug\net8.0\semana3.dll
+C:\Users\Kroid\Desktop\Aprendendo c#\semana3\bin\Debug\net8.0\semana3.pdb
+C:\Users\Kroid\Desktop\Aprendendo c#\semana3\obj\Debug\net8.0\semana3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kroid\Desktop\Aprendendo c#\semana3\obj\Debug\net8.0\semana3.AssemblyInfoInputs.cache
+C:\Users\Kroid\Desktop\Aprendendo c#\semana3\obj\Debug\net8.0\semana3.AssemblyInfo.cs
+C:\Users\Kroid\Desktop\Aprendendo c#\semana3\obj\Debug\net8.0\semana3.csproj.CoreCompileInputs.cache
+C:\Users\Kroid\Desktop\Aprendendo c#\semana3\obj\Debug\net8.0\semana3.sourcelink.json
+C:\Users\Kroid\Desktop\Aprendendo c#\semana3\obj\Debug\net8.0\semana3.dll
+C:\Users\Kroid\Desktop\Aprendendo c#\semana3\obj\Debug\net8.0\refint\semana3.dll
+C:\Users\Kroid\Desktop\Aprendendo c#\semana3\obj\Debug\net8.0\semana3.pdb
+C:\Users\Kroid\Desktop\Aprendendo c#\semana3\obj\Debug\net8.0\semana3.genruntimeconfig.cache
+C:\Users\Kroid\Desktop\Aprendendo c#\semana3\obj\Debug\net8.0\ref\semana3.dll
