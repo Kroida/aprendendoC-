@@ -201,12 +201,3 @@ Valor garantido? → [key]
 | Buscar chave         | `TryGetValue` |
 | Verificar existência | `ContainsKey` |
 | Acesso direto        | `[key]`       |
-
----
-
-## 5️⃣ 🔜 Próximos passos sugeridos
-
-* `Any`, `All`, `FirstOrDefault`
-* LINQ com objetos (`record` / `class`)
-* `Dictionary` + LINQ (`Where(a => a.Value >= 7)`)
-* Boas práticas de tratamento de exceções em fluxos de entrada
