@@ -2,7 +2,7 @@
 
 Uma **interface** define **quais métodos uma classe é obrigada a implementar**, sem dizer *como*.
 
-* 📌 No código, a interface é usada para **padronizar comportamentos** entre classes diferentes.
+📌 No código, a interface é usada para **padronizar comportamentos** entre classes diferentes.
 
 ```csharp
 public interface IAnimal
@@ -11,7 +11,7 @@ public interface IAnimal
 }
 ```
 
-* 🧠 A interface **não executa lógica** e **não armazena estado** — apenas declara métodos.
+🧠 A interface **não executa lógica** e **não armazena estado** — apenas declara métodos.
 
 ---
 
@@ -29,7 +29,7 @@ class Pig : IAnimal
 }
 ```
 
-* 📌 Se a classe **não implementar todos os métodos**, o código **não compila**.
+📌 Se a classe **não implementar todos os métodos**, o código **não compila**.
 
 Fluxo mental:
 
@@ -58,7 +58,7 @@ public interface ICatch
 }
 ```
 
-* 📌 Cada interface tem **um papel claro**:
+📌 Cada interface tem **um papel claro**:
 
 | Interface  | Responsabilidade          |
 | ---------- | ------------------------- |
@@ -92,7 +92,7 @@ public class VehicleStore : IVehicle, ICatch
 }
 ```
 
-### 🧠 Pontos importantes:
+🧠 Pontos importantes:
 
 * A classe **cumpre todos os contratos**
 * Cada método vem de uma interface diferente
@@ -133,7 +133,7 @@ Se existir → retorna preço
 Se não → mensagem de erro
 ```
 
-* 📌 Uso de **operador ternário** deixa o código mais enxuto.
+📌 Uso de **operador ternário** deixa o código mais enxuto.
 
 ---
 
@@ -144,7 +144,7 @@ IVehicle car = new VehicleStore();
 ICatch vehicle = new VehicleStore();
 ```
 
-### 🧠 Aqui acontece o **polimorfismo via interface**:
+🧠 Aqui acontece o **polimorfismo via interface**:
 
 * A variável conhece **só o contrato**
 * Não conhece a implementação concreta
@@ -154,7 +154,7 @@ car.VehicleSound();
 Console.WriteLine(vehicle.ObterVehicle("McLaren"));
 ```
 
-* 📌 O código depende da **interface**, não da classe.
+📌 O código depende da **interface**, não da classe.
 
 ---
 
