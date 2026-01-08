@@ -45,7 +45,7 @@ class SmsNotificator : INotificador
 }
 ```
 
-### 🧠 Conceito central:
+🧠 Conceito central:
 
 > **Mesmo método, comportamentos diferentes**
 
@@ -106,7 +106,7 @@ Main
              └─ executa Notificar()
 ```
 
-* 🧠 O `AlertService` **não sabe** se é email ou SMS.
+🧠 O `AlertService` **não sabe** se é email ou SMS.
 
 ---
 
@@ -159,7 +159,7 @@ class WhatsAppNotificator : INotificador
 }
 ```
 
-* 📌 Nenhuma mudança no `AlertService`.
+📌 Nenhuma mudança no `AlertService`.
 
 ---
 
