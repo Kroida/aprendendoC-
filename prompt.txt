@@ -1,1 +1,57 @@
-Se já houver conteúdo no README, utilize-o apenas como referência para criar um novo texto. Substitua completamente o conteúdo do README.md por um resumo didático, impessoal e objetivo dos conceitos estudados na aula, abordando organização do código, semântica e boas práticas na linguagem abordada. Utilize o conteúdo existente apenas como referência para criar um novo texto, sem copiar trechos ou exemplos diretamente. Explique de forma clara e sucinta o que são e para que servem os conteúdos abordados. O texto final deve ser único, coeso, sem repetições ou blocos excedentes, pronto para ser inserido no README.md - caso exista um.
+**Tarefa**
+Crie um **resumo didático completo** a partir de um ou mais arquivos de código-fonte, com foco em **aprendizado rápido**, **revisão** e **cheat-sheet**.
+
+**Objetivo pedagógico**
+
+* Consolidar o conteúdo apresentado na aula
+* Servir como material de consulta rápida
+* Estar pronto para uso em ferramentas de organização de estudos (ex.: Notion)
+
+**Audiência**
+
+* Estudantes iniciantes a intermediários
+* Considerar que o público **já conhece o básico da linguagem/tecnologia** abordada
+* Evitar explicações introdutórias óbvias, salvo quando estritamente necessárias ao contexto
+
+**Formato de saída**
+
+* Markdown para Github
+* Estrutura clara, hierárquica e escaneável
+
+**Conteúdo e foco**
+
+* Explicar **o que é** e **para que serve** cada conceito abordado
+* Priorizar **exemplos de código executáveis**, retirados ou adaptados do material da aula
+* Manter linguagem técnica, objetiva e didática
+* Destacar conceitos centrais, padrões recorrentes e usos mais comuns
+* Quando aplicável, explicar:
+
+  * Estruturas de dados
+  * Fluxos de execução
+  * Funções, métodos ou operações frequentes
+  * Tratamento de erros
+  * Abstrações importantes da linguagem ou tecnologia
+
+**Nível de detalhe**
+
+* Médio a alto
+* Suficiente para revisão autônoma sem necessidade de consultar a aula original
+
+**Requisitos visuais**
+
+* Títulos numerados com **emojis sequenciais** (1️⃣ 2️⃣ 3️⃣ …)
+* Tabelas para comparações, resumos ou listas conceituais
+* Diagramas simples em texto quando ajudarem na compreensão do fluxo
+* Destaques visuais (📌 🧠 ⚠️) para observações importantes, boas práticas ou alertas
+
+**Restrições**
+
+* ❌ Não explicar conceitos triviais já consolidados em aulas anteriores
+* ❌ Não incluir conteúdo fora do escopo do código fornecido
+* ✅ Código deve seguir boas práticas e padrões modernos da linguagem utilizada
+
+**Extras desejáveis (opcional)**
+
+* Seção final de **cheat-sheet** ou resumo rápido
+* Observações práticas (armadilhas comuns, erros frequentes, boas práticas)
+* Sugestão de próximos passos ou tópicos relacionados
