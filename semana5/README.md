@@ -242,10 +242,10 @@ Console.WriteLine executa
 
 ## 7️⃣ Erros comuns de iniciante (⚠️ importantes)
 
-❌ Usar `async` sem `await`
-❌ Usar `Task.Run` para IO
-❌ Usar `.Result` ou `.Wait()`
-❌ Misturar paralelismo com estado compartilhado
+* ❌ Usar `async` sem `await`
+* ❌ Usar `Task.Run` para IO
+* ❌ Usar `.Result` ou `.Wait()`
+* ❌ Misturar paralelismo com estado compartilhado
 
 ---
 
