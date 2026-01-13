@@ -187,10 +187,10 @@ mensagem exibida
 
 ## 9️⃣ Erros Comuns Evitados no Código
 
-✔ Não usa `.Wait()` ou `.Result`
-✔ Não usa `Task.Run` para IO
-✔ Usa `async Task`, não `async void`
-✔ Fluxo de execução claro e previsível
+* ✔ Não usa `.Wait()` ou `.Result`
+* ✔ Não usa `Task.Run` para IO
+* ✔ Usa `async Task`, não `async void`
+* ✔ Fluxo de execução claro e previsível
 
 ---
 
