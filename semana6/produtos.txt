@@ -1,0 +1,3 @@
+=== Produtos do carrinho ===
+pera → 5
+maçã → 3

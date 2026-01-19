@@ -1,148 +1,201 @@
-### 📌 Mapa Geral do que foi Estudado em C#
+## 1️⃣ Estrutura Geral do Programa
 
-| Semana / Bloco              | Principais Tópicos Estudados                                                                 | Nível Aproximado |
-|-----------------------------|-----------------------------------------------------------------------------------------------|------------------|
-| Básico – Semana 1           | Sintaxe inicial, variáveis, condicionais, repetições, arrays, console                        | Iniciante        |
-| Coleções + LINQ + Exceções  | List<T>, Dictionary, foreach, LINQ (Where/Select), try/catch                                 | Iniciante/Intermediário |
-| Interfaces e Polimorfismo   | Definição e uso de interfaces, múltipla implementação, polimorfismo via interface            | Intermediário    |
-| async / await + Task        | Modelo assíncrono, IO assíncrono vs paralelismo, Task, WhenAll/WhenAny, erros comuns         | Intermediário    |
-| Boas práticas & Semântica   | class × record × struct, mutabilidade/imutabilidade, init, readonly, ref/out/in, semântica   | Intermediário    |
+- Uso do **novo template de console app** (C# 9+ / .NET 5+)
+- Declaração de **interface** para definir contrato do repositório
+- Implementação concreta com `Dictionary<string, double>`
+- Método assíncrono de salvamento em arquivo
+- Uso de `record` apenas como container do `Main` (padrão recente, mas não obrigatório)
 
----
+## 2️⃣ Interface – Definição do Contrato
 
-### 1. Fundamentos Básicos (Semana 1)
+**O que é**  
+Contrato que define quais operações um repositório de produtos deve suportar.
 
-- Ponto de entrada: `static void Main()` (ou variações modernas `Top-level statements`)
-- Saída no console: `Console.WriteLine()`
-- Declaração de variáveis:
-  - Explícita: `int idade = 25;`
-  - Implícita com `var`: `var nome = "Kroida";`
-- Estruturas de decisão:
-  - `if / else`
-  - `switch` (com `case`, `break`, `default`)
-- Estruturas de repetição:
-  - `for` (contador simples e com incremento personalizado)
-  - `foreach` (ideal para coleções e arrays)
-- Arrays simples: `string[] cars = { ... };`
+**Para que serve**  
+- Permite inversão de dependência  
+- Facilita testes unitários (mocking)  
+- Permite trocar implementação sem alterar o código consumidor
 
----
-
-### 2. Coleções Genéricas + LINQ + Tratamento de Erros
-
-**List<T>**
-- Lista dinâmica e ordenada
-- Métodos principais: `.Add()`, `.Remove()`, `.Clear()`
-- Percorrimento comum: `foreach`
-
-**Dictionary<TKey, TValue>**
-- Mapeamento chave → valor
-- Acesso rápido via hash
-- Métodos seguros: `.TryGetValue(key, out var valor)`
-- Inicialização com collection initializer
-
-**LINQ básico**
-- Namespace: `System.Linq`
-- Execução tardia (lazy evaluation)
-- Operadores mais usados:
-  - `.Where()` → filtro
-  - `.Select()` → projeção / transformação
-  - `.ToList()` → materialização
-- Exemplo clássico:
-  ```csharp
-  var paresDobrados = numeros
-      .Where(n => n % 2 == 0)
-      .Select(n => n * 2)
-      .ToList();
-  ```
-
-**Tratamento de exceções**
-- Bloco `try / catch`
-- Captura específica: `catch (FormatException)`, `catch (OverflowException)`
-- Regra: capturar exceções específicas, nunca usar exceções para controle de fluxo normal
-
----
-
-### 3. Interfaces e Polimorfismo
-
-- Interface = **contrato** (só declara métodos, sem implementação)
-- Uma classe pode implementar **múltiplas interfaces**
-- Polimorfismo via interface:
-  ```csharp
-  IVehicle veiculo = new VehicleStore();
-  veiculo.VehicleSound();
-  ```
-- Vantagem principal: **desacoplamento** (código depende de abstração, não de implementação concreta)
-- Boas práticas observadas:
-  - Interfaces pequenas e coesas
-  - Responsabilidades bem separadas
-  - Evitar lógica complexa dentro de interfaces
-
----
-
-### 4. Programação Assíncrona (async / await)
-
-**Conceitos centrais**
-- `async` + `await` → **esperar sem bloquear** a thread
-- Foco principal: **IO assíncrono** (arquivo, HTTP, banco de dados)
-- **NÃO** é paralelismo por padrão
-
-**Task e Task<T>**
-- `Task` = promessa de trabalho futuro
-- `Task.Run()` → para trabalho **CPU-bound** (paralelismo real)
-- Retornos recomendados:
-  - `async Task`     → sem retorno
-  - `async Task<T>`  → com retorno
-  - `async void`     → **apenas** eventos (evitar sempre que possível)
-
-**Padrões importantes**
 ```csharp
-string texto = await File.ReadAllTextAsync("dados.txt");
-string html  = await httpClient.GetStringAsync(url);
-await Task.WhenAll(tarefa1, tarefa2, tarefa3);
+interface IProdutoRepositorio
+{
+    void Adicionar(string nome, double preco);
+    double? ObterPreco(string nome);
+    double CalcularTotal();
+    void MostrarProdutos();
+    Task SalvarArquivo();
+}
 ```
 
-**Erros comuns que você aprendeu a evitar**
-- Usar `.Result` / `.Wait()` → deadlock em contextos com SynchronizationContext
-- Usar `Task.Run` para operações de IO
-- Esquecer `await`
-- Usar `async void` em métodos normais
+📌 **Boa prática** — Interfaces em C# costumam começar com `I` (convenção Microsoft)
 
----
+## 3️⃣ Estrutura de Dados: Dictionary<string, double>
 
-### 5. Semântica, Imutabilidade e Boas Práticas Modernas
+**Por que Dictionary?**  
+- Acesso O(1) por chave (nome do produto)  
+- Evita duplicatas automaticamente (chave única)  
+- Ideal para lookup rápido de preço por nome
 
-**Escolha de tipo**
+```csharp
+private readonly Dictionary<string, double> _produtos = new();
+```
 
-| Tipo     | Quando usar                                      | Igualdade padrão     | Mutabilidade padrão |
-|--------|--------------------------------------------------|----------------------|----------------------|
-| `class`  | Entidades, identidade, comportamento rico       | Por referência       | Mutável             |
-| `record` | DTOs, Value Objects, dados imutáveis             | Por valor            | Imutável            |
-| `struct` | Dados pequenos, performance crítica, sem identidade | Por valor         | Mutável (cuidado)   |
+**Métodos mais usados no exemplo**
 
-**Imutabilidade (prioridade alta nos estudos)**
+| Operação               | Código                                      | Retorno / Efeito                          |
+|------------------------|---------------------------------------------|--------------------------------------------|
+| Adicionar / Atualizar  | `_produtos[nome] = preco;`                  | Insere ou sobrescreve                      |
+| Buscar com fallback    | `_produtos.TryGetValue(nome, out var preco)`| `true` se encontrou, `false` se não       |
+| Iterar valores         | `foreach (var preco in _produtos.Values)`   | Apenas preços                              |
+| Iterar chave+valor     | `foreach (var item in _produtos)`           | `KeyValuePair<string, double>`             |
 
-- `record` → imutável por padrão + sintaxe `with`
-- `init`-only properties (C# 9+)
-- Campos `readonly`
-- Vantagens: segurança, previsibilidade, thread-safety, testes mais fáceis
+⚠️ **Atenção** — Chaves são **case-sensitive** por padrão. Use `StringComparer.OrdinalIgnoreCase` se quiser ignorar maiúsculas/minúsculas.
 
-**Passagem de parâmetros**
-- `ref` → modifica original (precisa estar inicializado)
-- `out` → retorna valor (não precisa inicializar)
-- `in` → passagem por referência somente leitura (performance + segurança)
+## 4️⃣ Métodos da Implementação – Destaques
 
----
+**Adicionar**
 
-### Resumo Final – O que você já internalizou
+```csharp
+public void Adicionar(string nome, double preco)
+{
+    _produtos[nome] = preco;
+}
+```
 
-Você já estudou e comparou:
+**ObterPreco (com null safety)**
 
-- Código **síncrono vs assíncrono**
-- **IO assíncrono** vs **paralelismo CPU**
-- **Abstração via interface** vs implementação concreta
-- **Coleções** mais usadas no dia a dia
-- **LINQ** como forma declarativa de trabalhar com dados
-- Diferença semântica profunda entre `class`, `record` e `struct`
-- Importância da **imutabilidade** e como implementá-la
-- Tratamento seguro de exceções
-- Evitar armadilhas clássicas de async (deadlock, async void, .Result)
+```csharp
+public double? ObterPreco(string nome)
+{
+    return _produtos.TryGetValue(nome, out var preco)
+        ? preco
+        : null;
+}
+```
+
+**CalcularTotal (acumulação simples)**
+
+```csharp
+public double CalcularTotal()
+{
+    double total = 0;
+    foreach (var preco in _produtos.Values)
+    {
+        total += preco;
+    }
+    return total;
+}
+```
+
+**Versão mais idiomática (LINQ)**
+
+```csharp
+public double CalcularTotal() => _produtos.Values.Sum();
+```
+
+**MostrarProdutos**
+
+```csharp
+public void MostrarProdutos()
+{
+    foreach (var item in _produtos)
+    {
+        Console.WriteLine($"{item.Key} → {item.Value}");
+    }
+}
+```
+
+**SalvarArquivo (assíncrono)**
+
+```csharp
+public async Task SalvarArquivo()
+{
+    var linhas = new List<string> { "=== Produtos do carrinho ===" };
+
+    foreach (var item in _produtos)
+    {
+        linhas.Add($"{item.Key} → {item.Value}");
+    }
+
+    await File.WriteAllLinesAsync("produtos.txt", linhas);
+}
+```
+
+🧠 **Versão mais limpa e moderna (C# 11+)**
+
+```csharp
+var linhas = new[]
+{
+    "=== Produtos do carrinho ===",
+    .._produtos.Select(kv => $"{kv.Key} → {kv.Value}")
+};
+
+await File.WriteAllLinesAsync("produtos.txt", linhas);
+```
+
+## 5️⃣ Ponto de Entrada – Uso do record (padrão .NET 6+)
+
+```csharp
+record Produto()
+{
+    static void Main(string[] args)
+    {
+        IProdutoRepositorio carrinho = new ProdutoRepositorio();
+        carrinho.Adicionar("pera", 5);
+        carrinho.Adicionar("maçã", 3);
+        carrinho.MostrarProdutos();
+        Console.WriteLine($"O total é {carrinho.CalcularTotal()}");
+        Console.WriteLine($"O preço da pera é: {carrinho.ObterPreco("pera")}");
+        carrinho.SalvarArquivo();           // fire-and-forget (não await)
+    }
+}
+```
+
+⚠️ **Problema comum no exemplo**  
+`carrinho.SalvarArquivo()` é chamado sem `await` → o programa pode terminar antes da escrita terminar.
+
+**Correção recomendada**
+
+```csharp
+await carrinho.SalvarArquivo();
+```
+
+Ou tornar `Main` assíncrono:
+
+```csharp
+static async Task Main(string[] args)
+```
+
+## Cheat-sheet Rápido – C# Conceitos do Exemplo
+
+```csharp
+// Interface + injeção
+IProdutoRepositorio repo = new ProdutoRepositorio();
+
+// Dictionary – operações frequentes
+dict[chave] = valor;                    // add ou update
+dict.TryGetValue(chave, out var v);     // safe get
+dict.ContainsKey(chave);
+dict.Remove(chave);
+dict.Keys, dict.Values, dict.Count
+
+// LINQ úteis
+dict.Values.Sum();
+dict.Select(kv => $"{kv.Key}: {kv.Value:C}");
+dict.Where(kv => kv.Value > 10);
+
+// Arquivo assíncrono
+await File.WriteAllLinesAsync("file.txt", linhas);
+await File.AppendAllTextAsync("log.txt", texto + "\n");
+
+// Nullables
+double? preco = dict.TryGetValue("item", out var p) ? p : null;
+double precoOuZero = preco ?? 0;
+```
+
+**Boas práticas destacadas**
+- Sempre usar `readonly` em campos que não mudam após construtor
+- Preferir `double?` quando o valor pode não existir
+- Usar `TryGetValue` em vez de `ContainsKey` + indexador (mais eficiente)
+- Evitar fire-and-forget em métodos `async` no `Main`
+- Considerar `StringComparer.OrdinalIgnoreCase` para chaves case-insensitive
