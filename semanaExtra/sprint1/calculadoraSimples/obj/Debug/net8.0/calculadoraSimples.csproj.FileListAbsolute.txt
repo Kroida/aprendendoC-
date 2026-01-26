@@ -1,0 +1,15 @@
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\calculadoraSimples\bin\Debug\net8.0\calculadoraSimples.exe
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\calculadoraSimples\bin\Debug\net8.0\calculadoraSimples.deps.json
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\calculadoraSimples\bin\Debug\net8.0\calculadoraSimples.runtimeconfig.json
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\calculadoraSimples\bin\Debug\net8.0\calculadoraSimples.dll
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\calculadoraSimples\bin\Debug\net8.0\calculadoraSimples.pdb
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\calculadoraSimples\obj\Debug\net8.0\calculadoraSimples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\calculadoraSimples\obj\Debug\net8.0\calculadoraSimples.AssemblyInfoInputs.cache
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\calculadoraSimples\obj\Debug\net8.0\calculadoraSimples.AssemblyInfo.cs
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\calculadoraSimples\obj\Debug\net8.0\calculadoraSimples.csproj.CoreCompileInputs.cache
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\calculadoraSimples\obj\Debug\net8.0\calculadoraSimples.sourcelink.json
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\calculadoraSimples\obj\Debug\net8.0\calculadoraSimples.dll
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\calculadoraSimples\obj\Debug\net8.0\refint\calculadoraSimples.dll
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\calculadoraSimples\obj\Debug\net8.0\calculadoraSimples.pdb
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\calculadoraSimples\obj\Debug\net8.0\calculadoraSimples.genruntimeconfig.cache
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\calculadoraSimples\obj\Debug\net8.0\ref\calculadoraSimples.dll

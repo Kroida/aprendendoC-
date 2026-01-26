@@ -1,0 +1,15 @@
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\contagemVogais\bin\Debug\net8.0\contagemVogais.exe
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\contagemVogais\bin\Debug\net8.0\contagemVogais.deps.json
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\contagemVogais\bin\Debug\net8.0\contagemVogais.runtimeconfig.json
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\contagemVogais\bin\Debug\net8.0\contagemVogais.dll
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\contagemVogais\bin\Debug\net8.0\contagemVogais.pdb
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\contagemVogais\obj\Debug\net8.0\contagemVogais.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\contagemVogais\obj\Debug\net8.0\contagemVogais.AssemblyInfoInputs.cache
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\contagemVogais\obj\Debug\net8.0\contagemVogais.AssemblyInfo.cs
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\contagemVogais\obj\Debug\net8.0\contagemVogais.csproj.CoreCompileInputs.cache
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\contagemVogais\obj\Debug\net8.0\contagemVogais.sourcelink.json
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\contagemVogais\obj\Debug\net8.0\contagemVogais.dll
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\contagemVogais\obj\Debug\net8.0\refint\contagemVogais.dll
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\contagemVogais\obj\Debug\net8.0\contagemVogais.pdb
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\contagemVogais\obj\Debug\net8.0\contagemVogais.genruntimeconfig.cache
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\contagemVogais\obj\Debug\net8.0\ref\contagemVogais.dll
