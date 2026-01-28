@@ -1,0 +1,15 @@
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\4filtroDeNumero\obj\Debug\net8.0\4filtroDeNumero.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\4filtroDeNumero\obj\Debug\net8.0\4filtroDeNumero.AssemblyInfoInputs.cache
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\4filtroDeNumero\obj\Debug\net8.0\4filtroDeNumero.AssemblyInfo.cs
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\4filtroDeNumero\obj\Debug\net8.0\4filtroDeNumero.csproj.CoreCompileInputs.cache
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\4filtroDeNumero\obj\Debug\net8.0\4filtroDeNumero.sourcelink.json
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\4filtroDeNumero\bin\Debug\net8.0\4filtroDeNumero.exe
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\4filtroDeNumero\bin\Debug\net8.0\4filtroDeNumero.deps.json
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\4filtroDeNumero\bin\Debug\net8.0\4filtroDeNumero.runtimeconfig.json
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\4filtroDeNumero\bin\Debug\net8.0\4filtroDeNumero.dll
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\4filtroDeNumero\bin\Debug\net8.0\4filtroDeNumero.pdb
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\4filtroDeNumero\obj\Debug\net8.0\4filtroDeNumero.dll
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\4filtroDeNumero\obj\Debug\net8.0\refint\4filtroDeNumero.dll
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\4filtroDeNumero\obj\Debug\net8.0\4filtroDeNumero.pdb
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\4filtroDeNumero\obj\Debug\net8.0\4filtroDeNumero.genruntimeconfig.cache
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\4filtroDeNumero\obj\Debug\net8.0\ref\4filtroDeNumero.dll

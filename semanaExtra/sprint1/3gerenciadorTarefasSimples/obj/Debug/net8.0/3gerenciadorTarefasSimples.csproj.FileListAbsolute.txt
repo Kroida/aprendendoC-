@@ -1,0 +1,15 @@
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\3gerenciadorTarefasSimples\obj\Debug\net8.0\3gerenciadorTarefasSimples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\3gerenciadorTarefasSimples\obj\Debug\net8.0\3gerenciadorTarefasSimples.AssemblyInfoInputs.cache
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\3gerenciadorTarefasSimples\obj\Debug\net8.0\3gerenciadorTarefasSimples.AssemblyInfo.cs
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\3gerenciadorTarefasSimples\obj\Debug\net8.0\3gerenciadorTarefasSimples.csproj.CoreCompileInputs.cache
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\3gerenciadorTarefasSimples\obj\Debug\net8.0\3gerenciadorTarefasSimples.sourcelink.json
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\3gerenciadorTarefasSimples\bin\Debug\net8.0\3gerenciadorTarefasSimples.exe
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\3gerenciadorTarefasSimples\bin\Debug\net8.0\3gerenciadorTarefasSimples.deps.json
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\3gerenciadorTarefasSimples\bin\Debug\net8.0\3gerenciadorTarefasSimples.runtimeconfig.json
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\3gerenciadorTarefasSimples\bin\Debug\net8.0\3gerenciadorTarefasSimples.dll
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\3gerenciadorTarefasSimples\bin\Debug\net8.0\3gerenciadorTarefasSimples.pdb
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\3gerenciadorTarefasSimples\obj\Debug\net8.0\3gerenciadorTarefasSimples.dll
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\3gerenciadorTarefasSimples\obj\Debug\net8.0\refint\3gerenciadorTarefasSimples.dll
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\3gerenciadorTarefasSimples\obj\Debug\net8.0\3gerenciadorTarefasSimples.pdb
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\3gerenciadorTarefasSimples\obj\Debug\net8.0\3gerenciadorTarefasSimples.genruntimeconfig.cache
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\3gerenciadorTarefasSimples\obj\Debug\net8.0\ref\3gerenciadorTarefasSimples.dll

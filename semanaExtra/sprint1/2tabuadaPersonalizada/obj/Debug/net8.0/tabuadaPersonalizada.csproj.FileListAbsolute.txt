@@ -1,0 +1,15 @@
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\tabuadaPersonalizada\bin\Debug\net8.0\tabuadaPersonalizada.exe
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\tabuadaPersonalizada\bin\Debug\net8.0\tabuadaPersonalizada.deps.json
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\tabuadaPersonalizada\bin\Debug\net8.0\tabuadaPersonalizada.runtimeconfig.json
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\tabuadaPersonalizada\bin\Debug\net8.0\tabuadaPersonalizada.dll
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\tabuadaPersonalizada\bin\Debug\net8.0\tabuadaPersonalizada.pdb
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\tabuadaPersonalizada\obj\Debug\net8.0\tabuadaPersonalizada.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\tabuadaPersonalizada\obj\Debug\net8.0\tabuadaPersonalizada.AssemblyInfoInputs.cache
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\tabuadaPersonalizada\obj\Debug\net8.0\tabuadaPersonalizada.AssemblyInfo.cs
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\tabuadaPersonalizada\obj\Debug\net8.0\tabuadaPersonalizada.csproj.CoreCompileInputs.cache
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\tabuadaPersonalizada\obj\Debug\net8.0\tabuadaPersonalizada.sourcelink.json
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\tabuadaPersonalizada\obj\Debug\net8.0\tabuadaPersonalizada.dll
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\tabuadaPersonalizada\obj\Debug\net8.0\refint\tabuadaPersonalizada.dll
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\tabuadaPersonalizada\obj\Debug\net8.0\tabuadaPersonalizada.pdb
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\tabuadaPersonalizada\obj\Debug\net8.0\tabuadaPersonalizada.genruntimeconfig.cache
+C:\Users\Kroid\Desktop\Aprendendo c#\semanaExtra\sprint1\tabuadaPersonalizada\obj\Debug\net8.0\ref\tabuadaPersonalizada.dll
